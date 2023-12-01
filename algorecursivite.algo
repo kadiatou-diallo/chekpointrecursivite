@@ -1,0 +1,15 @@
+FUNCTION palindrome(str) 
+ALGORITHM algorithm_name
+VAR
+    strMin=str.tolowercase();
+BEGIN
+    IF (strMin.split("").reverse().join("") ==strMin) THEN
+    write(strMin "est un palindrome");
+ELSE
+    write(strMin "n'est pas un palindrome")
+END_IF
+END
+palindrome("kayak");
+
+
+
